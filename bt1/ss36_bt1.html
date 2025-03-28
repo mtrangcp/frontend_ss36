@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ss36 bt1</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(246, 238, 228);
+      }
+      .saveName,
+      .heloName {
+        width: fit-content;
+        height: fit-content;
+        margin: 20px auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+      }
+      .saveName h2,
+      .heloName h2 {
+        margin-bottom: 20px;
+      }
+      #nameInput {
+        width: 300px;
+        height: 30px;
+        border: 1px solid rgb(167, 166, 166);
+        border-radius: 8px;
+        margin-right: 10px;
+        padding-left: 10px;
+      }
+      #nameInput:focus {
+        outline: none;
+        border: 2px solid gray;
+      }
+      #btnSave,
+      #changeName {
+        padding: 7px 15px;
+        border-radius: 8px;
+        border: none;
+        background-color: blue;
+        color: #fff;
+      }
+      #btnSave:hover,
+      #changeName:hover {
+        opacity: 0.6;
+        cursor: pointer;
+      }
+      #changeName {
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="saveName">
+      <h2>Nhập tên của bạn</h2>
+
+      <form action="#">
+        <input type="text" id="nameInput" autofocus />
+        <button type="submit" id="btnSave">Lưu</button>
+      </form>
+    </div>
+
+    <div class="heloName">
+      <h2>Chào bạn, aaaa</h2>
+
+      <div style="width: 100%; display: flex; justify-content: center">
+        <button id="changeName">Đổi tên</button>
+      </div>
+    </div>
+
+    <script src="ss36_bt1.js"></script>
+  </body>
+</html>

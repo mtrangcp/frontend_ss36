@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ss36 bt3</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      h2 {
+        margin: 20px auto 80px auto;
+      }
+      .btnColor {
+        border-radius: 8px;
+        border: none;
+        padding: 5px 20px;
+        font-size: 20px;
+        color: #fff;
+      }
+      .btnColor:hover {
+        opacity: 0.6;
+        cursor: pointer;
+      }
+      .listBtn {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 50px;
+      }
+      .btnRed {
+        background-color: rgb(196, 0, 0);
+      }
+      .btnBlue {
+        background-color: rgb(0, 132, 255);
+      }
+      .btnYellow {
+        background-color: rgb(205, 146, 50);
+      }
+      .btnViolet {
+        background-color: darkorchid;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Chọn màu nền bạn yêu thích</h2>
+
+    <div class="listBtn">
+      <button class="btnColor btnRed">Đỏ</button>
+      <button class="btnColor btnBlue">Xanh</button>
+      <button class="btnColor btnYellow">Vàng</button>
+      <button class="btnColor btnViolet">Tím</button>
+    </div>
+
+    <p style="color: gray">
+      Trang sẽ ghi nhớ màu bạn đã chọn kể cả khi tải lại!
+    </p>
+
+    <script src="ss36_bt3.js"></script>
+  </body>
+</html>

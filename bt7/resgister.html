@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="resgister.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Đăng ký</h2>
+      <form id="form">
+        <input
+          type="text"
+          placeholder="Tên đăng ký"
+          id="userName"
+          autocomplete="username"
+        /><br />
+        <small class="error" id="errorName">
+          Tên đăng nhập không được để trống
+        </small>
+        <br /><br />
+
+        <input
+          type="password"
+          placeholder="Mật khẩu"
+          id="pass"
+          autocomplete="current-password"
+        /><br />
+        <small class="error" id="errorPass">
+          Mật khẩu không được để trống
+        </small>
+        <br /><br />
+
+        <button id="btnResgister">Đăng ký</button>
+        <p><a href="login.html">Quay lại đăng nhập</a></p>
+      </form>
+    </div>
+
+    <script src="resgister.js"></script>
+  </body>
+</html>

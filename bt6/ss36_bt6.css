@@ -57,9 +57,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-.comment-list span {
+.comment-list div {
     font-weight: bold;
     color: gold;
 }

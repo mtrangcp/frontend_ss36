@@ -15,28 +15,25 @@
       />
       <p>Đánh giá sản phẩm:</p>
       <div id="rating">
-        <span class="stars" data-value="1">★</span>
-        <span class="stars" data-value="2">★</span>
-        <span class="stars" data-value="3">★</span>
-        <span class="stars" data-value="4">★</span>
-        <span class="stars" data-value="5">★</span>
+        <span class="stars" data="1">★</span>
+        <span class="stars" data="2">★</span>
+        <span class="stars" data="3">★</span>
+        <span class="stars" data="4">★</span>
+        <span class="stars" data="5">★</span>
       </div>
       <p id="selected-rating">Bạn chưa đánh giá.</p>
 
       <!-- Bình luận -->
-      <div class="comment-section">
+      <form id="formEl" class="comment-section">
         <h3>Bình luận</h3>
         <textarea
           id="comment-input"
           class="comment-box"
           placeholder="Nhập bình luận..."
         ></textarea>
-        <button onclick="submitReview()" class="btnSend">Gửi</button>
-        <ul id="comment-list" class="comment-list">
-          <!-- sử dụng thẻ li và bên trong là thẻ span chứa sao và thẻ b chưa nội dung đánh giá -->
-          <!-- <li> <span>★★★★★<span> <b>Hay qué</b> </li> -->
-        </ul>
-      </div>
+        <button class="btnSend">Gửi</button>
+        <ul id="comment-list" class="comment-list"></ul>
+      </form>
     </div>
 
     <script src="ss36_bt6.js"></script>
